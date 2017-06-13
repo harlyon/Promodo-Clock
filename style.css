@@ -1,0 +1,121 @@
+body {
+    display: block;
+    margin: 8px;
+    background-image: url(background.png);
+}
+
+.header {
+    margin-top: 3%;
+    font-size: 30px;
+    color: #333;
+    font-family: Helvetica;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 600px;
+    height: 300px;
+    font-family: Helvetica;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-image: initial;
+    background-image: url(light.png);
+}
+
+.sessions {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 600px;
+    height: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#work {
+    float: left;
+    margin-left: 35px;
+}
+
+#work, #rest, #start, #stop, #add, #subtract {
+    margin-top: 2px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 4px;
+}
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+
+#rest {
+    float: right;
+    margin-right: 35px;
+}
+
+#subtract {
+    float: right;
+    margin-right: 10px;
+}
+
+#add {
+    float: left;
+    margin-left: 10px;
+}
+
+#start {
+    float: left;
+    margin-left: 10px;
+}
+
+#stop {
+    float: right;
+    margin-right: 10px;
+}
+
+#timer {
+    color: #88984;
+    margin-top: 10%;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+
+audio {
+    width: 300px;
+    height: 32px;
+}
